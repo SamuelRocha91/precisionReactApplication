@@ -1,9 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import client from '../assets/client.png';
 import list from '../assets/list.png';
 import thermometer from '../assets/thermometer.png'
 import '../styles/home.css'
 
 export default function Home() {
+
+  const navigator = useNavigate();
 
   return (
     <main>
@@ -15,7 +18,7 @@ export default function Home() {
         <div className='route-container'>
           <img src={client} alt="imagem de pessoas" />
           <p>Não tem cadastro ainda? Cadastre agora mesmo seu usuário</p>
-          <button className='btn-routes'>Cadastrar consumidor</button>
+          <button onClick={() => navigator("/create-client")} className='btn-routes'>Cadastrar consumidor</button>
         </div>
          <div className='route-container' >
           <img id="thermometer" src={thermometer} alt="imagem de pessoas" />
