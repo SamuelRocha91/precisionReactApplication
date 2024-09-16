@@ -25,7 +25,6 @@ input {
     width: 100%;
     padding: 1px;
     background-color: antiquewhite;
-
 }
 
 #cep {
@@ -48,4 +47,51 @@ input {
 .btn:hover {
     filter: brightness(1.8);
     cursor: pointer;
+}
+
+.customer-code {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.customer-code h3 {
+    font-size: 40px;
+}
+
+.customer-code p {
+    font-size: 20px;
+}
+
+.customer-code button {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.customer-code button:hover {
+    cursor: pointer;
+    filter: brightness(1.8);
+}
+
+.customer-code a {
+    font-size: 18px;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+}
+
+.home-page {
+    font-size: 18px;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
 }
