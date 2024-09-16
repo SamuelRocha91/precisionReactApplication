@@ -83,10 +83,3 @@ measureappfront/
 ├── src/             # Código-fonte da aplicação
 └── README.md        # Documentação do projeto
 ```
-
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests. Toda ajuda é apreciada!
-
----
-
-Feito com 💻 por [SamuelRocha91](https://github.com/SamuelRocha91/)
