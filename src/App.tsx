@@ -3,8 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import CreateMeasure from './component/CreateMeasure';
 import ListMeasures from './component/ListMeasures';
+import CreateClient from './pages/CreateClient'
 
 function App() {
+
   return (
       <div>
         <Routes>

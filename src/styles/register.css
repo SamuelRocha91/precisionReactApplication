@@ -1,0 +1,11 @@
+form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cep-search {
+    display: flex;
+}
+
