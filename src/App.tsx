@@ -10,7 +10,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} /> 
           <Route path='/create-measure' element={<CreateMeasure />} />
-          <Route path='/list-measures'  element= { <ListMeasures />} />
+          <Route path='/list-measures' element={<ListMeasures />} />
+          <Route path='/create-client' element={<CreateClient />} />
         </Routes>
       </div>
   )
