@@ -1,6 +1,9 @@
 import { ChangeEvent, useState } from 'react';
 import '../styles/register.css'
 import Swal from 'sweetalert2';
+import { loading } from '../utils/swal';
+
+const URL = import.meta.env.VITE_API_URL;
 
 export default function CreateClient() {
 
@@ -51,22 +54,48 @@ export default function CreateClient() {
   };
     
   const handleSubmit = () => {
+    event?.preventDefault();
     const re = /\S+@\S+\.\S+/;
     if (!re.test(email)) return Swal.fire("Por favor, preencha um email válido!")
-      
+    const data = {
+      name: name,
+      cep: cep,
+      email: email,
+      state: dataAddress.state,
+      city: dataAddress.city
+    }
+
+    loading();
+  
+    fetch(`${URL}/customer`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+     },
+      body: JSON.stringify(data)
+    }).then((respose) => respose.json())
+      .then((info) => {
+        Swal.close();
+        console.log(info)
+      })
+      .catch((error) => {
+        Swal.close();
+        console.error(error);
+        Swal.fire("Erro no cadastro do Customer. Tente novamente mais tarde")
+      })
   }
   return (
       <form onSubmit={handleSubmit}>
-      <h3>Cadastrar Usuário</h3>
-      <label htmlFor="name">Nome</label>
-      <input
-      type="text"
-      id="name"
-      value={name}
-      onChange={(event) => setName(event.target.value)}
-      />
-      <label htmlFor="cep">CEP</label>
-      <div className='cep-search'>
+        <h3>Cadastrar Usuário</h3>
+        <label htmlFor="name">Nome</label>
+        <input
+        type="text"
+        id="name"
+        value={name}
+        onChange={(event) => setName(event.target.value)}
+        />
+        <label htmlFor="cep">CEP</label>
+        <div className='cep-search'>
           <input
           type="text"
           id="cep"

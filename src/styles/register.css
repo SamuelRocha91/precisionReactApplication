@@ -9,3 +9,43 @@ form {
     display: flex;
 }
 
+form h3 {
+  font-size: 40px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    padding: 5px;
+}
+
+.cep-search{
+    width: 100%;
+    padding: 1px;
+    background-color: antiquewhite;
+
+}
+
+#cep {
+    width: 100%;
+}
+
+#cep-search{
+    height: 100%;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    filter: brightness(1.8);
+    cursor: pointer;
+}
