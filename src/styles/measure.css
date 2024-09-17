@@ -1,0 +1,111 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-data label {
+  font-size: 24px;
+}
+
+input {
+    width: 100%;
+    font-size: 15px;
+}
+
+select {
+    font-size: 18px;
+    padding: 8px;
+    width: 102.5%;
+    border-radius: 8px;
+}
+
+.btn-measure {
+    padding: 15px;
+    font-size: 20px;
+    width: 102%;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-measure-one {
+    padding: 15px;
+    font-size: 20px;
+    width: 102%;
+    background-color: rgb(131, 139, 7);
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-measure:hover {
+    cursor: pointer;
+    filter: brightness(1.8);
+}
+.btn-measure-two {
+    padding: 15px;
+    font-size: 20px;
+    width: 102%;
+    background-color: rgb(11, 139, 7);
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-measure-one:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
+.btn-measure-two:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    border: 1px solid wheat;
+    padding: 30px;
+    box-shadow: 1px 4px 8px white;
+}
+
+.confirm-measure {
+    border: 1px solid white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 1px 4px 8px white;
+}
+
+.confirm-measure label {
+    font-size: 25px;
+}
+
+.confirm-measure input {
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.form-confirm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btns-actions {
+    display: flex;
+    gap: 5px;
+}

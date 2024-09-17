@@ -23,7 +23,7 @@ export default function Home() {
          <div className='route-container' >
           <img id="thermometer" src={thermometer} alt="imagem de pessoas" />
           <p>Cadastre agora mesmo sua medição de consumo gratuitamente!</p>
-          <button  className='btn-routes'>Medir consumo</button>
+          <button onClick={() => navigator("/create-measure")} className='btn-routes'>Medir consumo</button>
         </div>
          <div className='route-container'>
           <img src={list} alt="imagem de pessoas" />
