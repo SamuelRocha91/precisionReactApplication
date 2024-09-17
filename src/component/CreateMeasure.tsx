@@ -2,6 +2,7 @@ import { useState } from "react";
 import ConfirmMeasure from "./ConfirmMeasure";
 import Swal from 'sweetalert2'
 import { useNavigate } from "react-router-dom";
+import '../styles/measure.css'
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
@@ -23,7 +24,6 @@ function CreateMeasure() {
   const sendMeasure = (e: React.FormEvent<HTMLButtonElement>) => {
     e.preventDefault()
     setLoading(true)
-    console.log('vamos tentar criar')
     const jsonBody = JSON.stringify({
       image: formFields.file,
       customer_code: formFields.customerCode,
@@ -41,14 +41,11 @@ function CreateMeasure() {
       return response.json()
     })
       .then((data) => {
-        console.log("auuuuueee")
-        console.log(data)
         setResponse({
            measure_uuid: data.measure_uuid,
          measure_value: data.measure_value
         })
       }).finally(() => {
-        console.log("aÊeee")
         setLoading(false)
       })
   }
@@ -69,13 +66,11 @@ function CreateMeasure() {
         setLoading(false)
         Swal.fire("Medição confirmada com sucesso!")
         navigator('/')
-      }
-)
+      })
   }
   const handleChangeField = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const name = e.target.name;
     const value = e.target.value;
-    console.log('aqui')
     if (name == "date") {
       return setFields(prevFields => ({
         ...prevFields,
@@ -106,38 +101,54 @@ function CreateMeasure() {
     }
   }
 
-
   return (
     <div>
     { loading ? <h1>Carregando...</h1> : responseHttp.measure_uuid == "" ? (
-      <form >
-        <div className="mb-3 d-flex flex-column">
-          <label htmlFor="formFile" className="form-label">
-            Carregue a imagem para a medição:
-          </label>
-          <input onChange={handleChangeField} id="formFile" className="form-control" type="file" name="file" accept="image/*" />
+        <form >
+        <h1>Cadastro de medição</h1>
+        <div className="form-content">
+          <div className="inputs-data">
+            <label htmlFor="formFile">
+              Carregue a imagem para a medição:
+            </label>
+              <input
+                onChange={handleChangeField}
+                id="formFile"
+                type="file"
+                name="file"
+                accept="image/*"
+              />
+          </div>
+          <div className="inputs-data">
+            <label htmlFor="customer-code">
+              Digite o código do cliente:
+            </label>
+              <input
+                onChange={handleChangeField}
+                id="customer-code"
+                type="text"
+                name="customerCode"
+                value={formFields.customerCode}
+              />
+          </div>
+          <div className="inputs-data">
+            <label htmlFor="date-time">Selecione a data:</label>
+              <input
+                onChange={handleChangeField}
+                name="date"
+                type="date"
+                id="date-time" />
+          </div>
+          
+          <div className="inputs-data">
+            <select onChange={handleChangeField} id="measure-type" name="type" value={formFields.type}>
+              <option disabled value="">Escolha um tipo de medição</option>
+              <option value="GAS">GAS</option>
+              <option value="WATER">WATER</option>
+            </select>
+          </div>
+          <button onClick={sendMeasure} className="btn-measure">Cadastrar</button>
         </div>
-
-        <div className="mb-3">
-          <label htmlFor="customer-code" className="form-label">
-            Digite o código do cliente:
-          </label>
-          <input onChange={handleChangeField} id="customer-code" type="text" name="customerCode" className="form-control" value={formFields.customerCode} />
-        </div>
-
-        <div className="mb-3 d-flex flex-column">
-          <label htmlFor="date-time" className="form-label">Selecione a data:</label>
-          <input onChange={handleChangeField} className="form-control" name="date" type="date" id="date-time" />
-        </div>
-        
-        <div className="mb-3">
-          <select onChange={handleChangeField} id="measure-type" className="form-select" name="type" value={formFields.type}>
-            <option disabled value="">Escolha um tipo de medição</option>
-            <option value="GAS">GAS</option>
-            <option value="WATER">WATER</option>
-          </select>
-        </div>
-        <button onClick={sendMeasure } className="btn btn-primary">Submit</button>
       </form>
      ) : (
       <ConfirmMeasure confirmMeasure={confirmMeasure} responseHttp={responseHttp} />
