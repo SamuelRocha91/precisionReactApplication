@@ -14,6 +14,8 @@
 
 ![Application Demo](./gifs/apiMeasure.gif)
 
+![Backend Node.js](git@github.com:SamuelRocha91/apiMeasureWaterAndGas.git)
+
 ## Description
 
 **MeasureApp Frontend** is a web application that provides a user-friendly interface for managing water and gas consumption measurements. Integrated with Artificial Intelligence, it allows users to register meters, track consumption, and maintain detailed control of their expenses. This application is part of a complete system aimed at optimizing water and gas resource management.

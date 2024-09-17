@@ -14,6 +14,8 @@
 
 ![应用操作演示](./gifs/apiMeasure.gif)
 
+![Backend Node.js](git@github.com:SamuelRocha91/apiMeasureWaterAndGas.git)
+
 ## 描述
 
 **MeasureApp 前端** 是一个提供友好界面的应用程序，用于管理水和天然气的消费测量。通过集成人工智能，用户可以注册仪表，跟踪用量，并详细控制开支。该应用程序是优化水和天然气资源管理的完整系统的一部分。
