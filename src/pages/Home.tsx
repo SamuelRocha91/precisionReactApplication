@@ -28,7 +28,7 @@ export default function Home() {
          <div className='route-container'>
           <img src={list} alt="imagem de pessoas" />
           <p>Consulte agora mesmo seu histórico mensal de consumo!</p>
-          <button  className='btn-routes'>Listar consumo mensal</button>
+          <button onClick={() => navigator("/list-measures")}  className='btn-routes'>Listar consumo mensal</button>
         </div>
       </div>
     </main> 
