@@ -1,0 +1,28 @@
+.filter-list {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-list input {
+    width: 280px;
+}
+.btn-list {
+    width: 300px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.full-container {
+  border: 1px solid white;
+  height: 600px;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 2px 4px 6px white;
+}

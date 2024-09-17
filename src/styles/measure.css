@@ -17,8 +17,9 @@ form {
 }
 
 input {
-    width: 100%;
+    width: 99.5%;
     font-size: 15px;
+    padding: 5px;
 }
 
 select {

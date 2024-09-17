@@ -113,7 +113,7 @@ export default function CreateClient() {
         </div>
       )}
       {!fetchComplete && (
-        <form onSubmit={handleSubmit}>
+        <form className='form-customer' onSubmit={handleSubmit}>
           <h3>Cadastrar Usuário</h3>
           <label htmlFor="name">Nome</label>
           <input
@@ -159,7 +159,7 @@ export default function CreateClient() {
             onChange={(event) => setEmail(event.target.value)}
             value={email}
           />
-          <button type="submit" className="btn btn-dark" disabled={isDisable()}>
+          <button type="submit" className="btn-submit-dark" disabled={isDisable()}>
             Registrar
           </button>
           <Link className='home-page' to={"/"}>Ir para home</Link>
