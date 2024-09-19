@@ -70,8 +70,7 @@ O **MeasureApp Frontend** é uma aplicação web que fornece uma interface amig�
    ```
 
 2. Baixe o arquivo `docker-compose.yml`.
-
-   [Acessar no Google Drive](https://drive.google.com/file/d/1kzs-DJGCvYImBQAqr1GI-zwoNha_b8tA/view?usp=sharing)
+   [Acessar no Google Drive](https://drive.google.com/file/d/1p5MKW3YB5En05Jp5ETWxNbmHllinihiH/view?usp=sharing)
 
 3. Coloque o arquivo `docker-compose.yml` na seguinte estrutura de pastas:
    
