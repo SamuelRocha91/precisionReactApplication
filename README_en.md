@@ -70,7 +70,7 @@
 
 2. Download the `docker-compose.yml` file.
 
-   [Access on Google Drive](https://drive.google.com/file/d/1kzs-DJGCvYImBQAqr1GI-zwoNha_b8tA/view?usp=sharing)
+   [Access on Google Drive](https://drive.google.com/file/d/1p5MKW3YB5En05Jp5ETWxNbmHllinihiH/view?usp=sharing)
 
 3. Place the `docker-compose.yml` file in the following folder structure:
 

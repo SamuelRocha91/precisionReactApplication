@@ -70,7 +70,7 @@
 
 2. 下载 `docker-compose.yml` 文件:
 
-   [访问 Google Drive](https://drive.google.com/file/d/1kzs-DJGCvYImBQAqr1GI-zwoNha_b8tA/view?usp=sharing)
+   [访问 Google Drive](https://drive.google.com/file/d/1p5MKW3YB5En05Jp5ETWxNbmHllinihiH/view?usp=sharing)
 
 3. 将 `docker-compose.yml` 文件放置在类似以下的文件结构中:
 
