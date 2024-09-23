@@ -6,7 +6,7 @@
 
 ![عرض التطبيق](./gifs/apiMeasure.gif)
 
-![Backend Node.js](git@github.com:SamuelRocha91/apiMeasureWaterAndGas.git)
+🤖 [Backend Node.js](https://github.com/SamuelRocha91/apiMeasureWaterAndGas/blob/main/README_ar.md)
 
 ## الوصف
 
@@ -124,7 +124,7 @@ precisionReactApplication/
 
 ## مشاريع أخرى
 
-- 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back) 
-- 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy) 
-- 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application) 
+- 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back/blob/main/README_ar.md) 
+- 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy/blob/main/README_ar.md) 
+- 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application/blob/main/README_ar.md) 
 - 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty) 

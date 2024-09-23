@@ -6,7 +6,7 @@
 
 ![Demostración de la Aplicación](./gifs/apiMeasure.gif)
 
-🤖 [Backend Node.js](https://github.com/SamuelRocha91/apiMeasureWaterAndGas)
+🤖 [Backend Node.js](https://github.com/SamuelRocha91/apiMeasureWaterAndGas/blob/main/README_es.md))
 
 ## Descripción
 
@@ -126,4 +126,4 @@ precisionReactApplication/
 - 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back/blob/main/README_es.md) 
 - 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy/blob/main/README_es.md) 
 - 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application/blob/main/README_es.md) 
-- 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty/blob/main/README_es.md) 
+- 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty) 
