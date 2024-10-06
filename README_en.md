@@ -1,32 +1,40 @@
-# <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTchGHKMA3VyA1ySh2ITWb0CIm_cnhF1cGvlQ&s" alt="Full Stack Projects" width="52" height="40" /> MeasureApp Frontend <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTchGHKMA3VyA1ySh2ITWb0CIm_cnhF1cGvlQ&s" alt="Java Projects Logo" width="52" height="40" /> 
+# <img src="https://cdn-icons-png.flaticon.com/128/83/83522.png" alt="Full Projects Logo" width="42" height="30" /> MeasureApp Frontend <img src="https://cdn-icons-png.flaticon.com/128/83/83522.png" alt="Full Projects Logo" width="42" height="30" />
 
-## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ar.md)
+## 🌐 Available Languages
 
+[![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ar.md)
 
 ![Status: In Development](https://img.shields.io/badge/status-in%20development-yellow)
 
-![Application Demo](./gifs/apiMeasure.gif)
+![Application Demonstration](./gifs/apiMeasure.gif)
 
-🤖 [Backend Node.js](https://github.com/SamuelRocha91/apiMeasureWaterAndGas/blob/main/README_en.md)
+🤖 [Backend Repository Node](https://github.com/SamuelRocha91/apiMeasureWaterAndGas/blob/main/README_en.md)
 
-## Description
+<details>
+  <summary><h2>Description</h2></summary>
 
-**MeasureApp Frontend** is a web application that provides a user-friendly interface for managing water and gas consumption measurements. Integrated with Artificial Intelligence, it allows users to register meters, track consumption, and maintain detailed control of their expenses. This application is part of a complete system aimed at optimizing water and gas resource management.
+The **MeasureApp Frontend** is a web application that provides a user-friendly interface for managing water and gas consumption measurements. Integrated with Artificial Intelligence, it allows users to record measurements, monitor consumption, and maintain detailed control of their expenses. This application is part of a comprehensive system aimed at optimizing the management of water and gas resources.
 
-## Features
+</details>
 
-- **User Registration**: Allows new consumers to register on the platform easily.
-- **Consumption Measurement**: Enables users to input water and gas measurements directly via the interface.
+<details>
+  <summary><h2>Features</h2></summary>
+
+- **User Registration**: Easily register new consumers on the platform.
+- **Consumption Measurement**: Allows for the insertion of water and gas measurements directly through the interface.
 - **Consumption History**: Displays the monthly consumption history with detailed graphs.
 
 ## Technologies Used
 
 - **React**: JavaScript library for building user interfaces.
-- **Vite**: A fast and efficient build tool for web development.
-- **React Router**: Manages navigation between the application's routes.
+- **Vite**: Tool for fast and efficient web development.
+- **React Router**: Route management for navigation between pages.
 - **SweetAlert2**: Library for displaying interactive and customizable alerts.
 
-## Dependencies
+</details>
+
+<details>
+  <summary><h2>Dependencies</h2></summary>
 
 ```json
 "dependencies": {
@@ -49,10 +57,12 @@
   "vite": "^5.4.1"
 }
 ```
+</details>
 
 ## How to Run the Project Locally
 
-### With Docker
+<details>
+  <summary><h2>🚀 Using Docker</h2></summary>
 
 1. Clone the repositories:
 
@@ -62,11 +72,10 @@
    ```
 
 2. Download the `docker-compose.yml` file.
-
    [Access on Google Drive](https://drive.google.com/file/d/1p5MKW3YB5En05Jp5ETWxNbmHllinihiH/view?usp=sharing)
 
 3. Place the `docker-compose.yml` file in the following folder structure:
-
+   
    ![Folder Hierarchy](./public/pastasDocker.png)
 
 4. Build the images and start the containers:
@@ -75,7 +84,10 @@
    docker-compose up --build
    ```
 
-### Without Docker
+</details>
+
+<details>
+  <summary><h2>🚀 Without Docker</h2></summary>
 
 1. Clone the repository:
 
@@ -103,7 +115,10 @@
 
 5. Access the application in your browser at `http://localhost:5173`.
 
-## Folder Structure
+</details>
+
+<details>
+  <summary><h2>Folder Structure</h2></summary>
 
 ```bash
 precisionReactApplication/
@@ -114,17 +129,16 @@ precisionReactApplication/
 ├── src/             # Application source code
 └── README.md        # Project documentation
 ```
-
-## Upcoming Features
-
-- **Responsiveness**: Ensure the interface adapts to different screen sizes.
-- **Pagination**: Implement pagination on data query screens.
-- **CSS Improvements**: Adjust styles for a more pleasant user interface.
-- **Unit and Integration Tests**: Ensure code quality with automated testing.
+</details>
 
 ## Other Projects
 
-- 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back/blob/main/README_en.md) 
-- 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy/blob/main/README_en.md) 
-- 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application/blob/main/README_en.md) 
-- 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty) 
+<details>
+  <summary><strong>🔗 Related Repositories</strong></summary>
+
+  - 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back/blob/main/README_en.md) - Ruby On Rails Backend
+  - 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy/blob/main/README_en.md) - Consumer Application
+  - 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application/blob/main/README_en.md) - Seller Application
+  - 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty/blob/main/README_en.md) - Payment API
+
+</details>
