@@ -1,20 +1,24 @@
-# <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTchGHKMA3VyA1ySh2ITWb0CIm_cnhF1cGvlQ&s" alt="Full Stack Projects" width="52" height="40" />  MeasureApp Frontend <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTchGHKMA3VyA1ySh2ITWb0CIm_cnhF1cGvlQ&s" alt="Java Projects Logo" width="52" height="40" /> 
+# <img src="https://cdn-icons-png.flaticon.com/128/83/83522.png" alt="Full Projects Logo" width="42" height="30" /> MeasureApp Frontend <img src="https://cdn-icons-png.flaticon.com/128/83/83522.png" alt="Full Projects Logo" width="42" height="30" />
 
-## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ar.md)
+## 🌐 可用语言
+
+[![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ar.md)
 
 ![Status: Em Desenvolvimento](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
 ![Demonstração da Aplicação](./gifs/apiMeasure.gif)
 
-
 🤖 [Repositório Backend Node](https://github.com/SamuelRocha91/apiMeasureWaterAndGas)
 
-
-## Descrição
+<details>
+  <summary><h2>Descrição</h2></summary>
 
 O **MeasureApp Frontend** é uma aplicação web que fornece uma interface amigável para o gerenciamento de medições de consumo de água e gás. Integrada com Inteligência Artificial, permite que os usuários registrem medições, acompanhem o consumo e mantenham um controle detalhado de seus gastos. Esta aplicação faz parte de um sistema completo voltado para a otimização da gestão de recursos de água e gás.
 
-## Funcionalidades
+</details>
+
+<details>
+  <summary><h2>Funcionalidades</h2></summary>
 
 - **Cadastro de Usuários**: Registre novos consumidores na plataforma de forma simples.
 - **Medição de Consumo**: Permite a inserção de medições de água e gás diretamente pela interface.
@@ -27,7 +31,10 @@ O **MeasureApp Frontend** é uma aplicação web que fornece uma interface amig�
 - **React Router**: Gerenciamento de rotas para navegação entre páginas.
 - **SweetAlert2**: Biblioteca para exibição de alertas interativos e customizáveis.
 
-## Dependências
+</details>
+
+<details>
+  <summary><h2> Dependências</h2></summary>
 
 ```json
 "dependencies": {
@@ -50,10 +57,12 @@ O **MeasureApp Frontend** é uma aplicação web que fornece uma interface amig�
   "vite": "^5.4.1"
 }
 ```
+</details>
 
 ## Como Rodar o Projeto Localmente
 
-### Usando Docker
+<details>
+  <summary><h2>🚀 Usando Docker</h2></summary>
 
 1. Clone os repositórios:
 
@@ -75,7 +84,10 @@ O **MeasureApp Frontend** é uma aplicação web que fornece uma interface amig�
    docker-compose up --build
    ```
 
-### Sem Docker
+</details>
+
+<details>
+  <summary><h2>🚀 Sem Docker</h2></summary>
 
 1. Clone o repositório:
 
@@ -103,7 +115,11 @@ O **MeasureApp Frontend** é uma aplicação web que fornece uma interface amig�
 
 5. Acesse a aplicação no seu navegador através do endereço `http://localhost:5173`.
 
-## Estrutura de Pastas
+</details>
+
+<details>
+  <summary><h2>Estrutura de Pastas</h2></summary>
+
 
 ```bash
 precisionReactApplication/
@@ -114,19 +130,16 @@ precisionReactApplication/
 ├── src/             # Código-fonte da aplicação
 └── README.md        # Documentação do projeto
 ```
+</details>
 
-## Funcionalidades Futuras
+## Outros Projetos
 
-- **Responsividade**: Garantir que a interface se ajuste a diferentes tamanhos de tela.
-- **Paginação**: Implementação de paginação em telas de consulta de dados.
-- **Melhorias de CSS**: Ajustes de estilo para uma interface mais agradável.
-- **Testes Unitários e de Integração**: Garantir a qualidade do código com testes automatizados.
+<details>
+  <summary><strong>🔗 Repositórios Relacionados</strong></summary>
 
-## Outros projetos:
+  - 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back) - Backend Ruby On Rails
+  - 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy) - Aplicação do consumidor
+  - 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application) - Aplicação do vendedor
+  - 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty) - API de pagamento
 
-- 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back) - Backend Ruby On Rails
-- 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy) - Aplicação do consumidor
-- 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application) - Aplicação do vendedor
-- 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty) - API de pagamento
-
----
+</details>

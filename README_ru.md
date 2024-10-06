@@ -1,32 +1,40 @@
-# <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTchGHKMA3VyA1ySh2ITWb0CIm_cnhF1cGvlQ&s" alt="Full Stack Projects" width="52" height="40" /> MeasureApp Frontend <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTchGHKMA3VyA1ySh2ITWb0CIm_cnhF1cGvlQ&s" alt="Java Projects Logo" width="52" height="40" />
+# <img src="https://cdn-icons-png.flaticon.com/128/83/83522.png" alt="Full Projects Logo" width="42" height="30" /> MeasureApp Frontend <img src="https://cdn-icons-png.flaticon.com/128/83/83522.png" alt="Full Projects Logo" width="42" height="30" />
 
-## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ar.md)
+## 🌐 Доступные Языки
 
+[![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/precisionReactApplication/blob/main/README_ar.md)
 
-![Статус: В разработке](https://img.shields.io/badge/status-%D0%B2%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5-yellow)
+![Статус: В Разработке](https://img.shields.io/badge/status-in%20development-yellow)
 
-![Демонстрация работы приложения](./gifs/apiMeasure.gif)
+![Демонстрация Приложения](./gifs/apiMeasure.gif)
 
-🤖 [Backend Node.js](https://github.com/SamuelRocha91/apiMeasureWaterAndGas/blob/main/README_ru.md)
+🤖 [Репозиторий Бэкенда Node](https://github.com/SamuelRocha91/apiMeasureWaterAndGas/blob/main/README_ru.md)
 
-## Описание
+<details>
+  <summary><h2>Описание</h2></summary>
 
-**MeasureApp Frontend** — это веб-приложение с удобным интерфейсом для управления измерениями потребления воды и газа. С интеграцией искусственного интеллекта пользователи могут регистрировать счётчики, отслеживать потребление и вести подробный учёт расходов. Это приложение является частью системы для оптимизации управления водными и газовыми ресурсами.
+**MeasureApp Frontend** — это веб-приложение, предоставляющее удобный интерфейс для управления показаниями потребления воды и газа. Встроенное с использованием искусственного интеллекта, оно позволяет пользователям регистрировать показания, отслеживать потребление и поддерживать детальный учет своих расходов. Это приложение является частью комплексной системы, направленной на оптимизацию управления ресурсами воды и газа.
 
-## Функциональные Возможности
+</details>
 
-- **Регистрация пользователей**: Позволяет новым пользователям зарегистрироваться на платформе.
-- **Измерение потребления**: Ввод измерений воды и газа через интерфейс.
-- **История потребления**: Просмотр ежемесячной истории потребления с графиками и детализацией.
+<details>
+  <summary><h2>Функционал</h2></summary>
 
-## Используемые технологии
+- **Регистрация Пользователей**: Легкая регистрация новых пользователей на платформе.
+- **Показания Потребления**: Позволяет вводить показания воды и газа прямо через интерфейс.
+- **История Потребления**: Показывает ежемесячную историю потребления с подробными графиками.
+
+## Используемые Технологии
 
 - **React**: Библиотека JavaScript для создания пользовательских интерфейсов.
-- **Vite**: Быстрый и лёгкий инструмент для разработки веб-приложений.
-- **React Router**: Управление навигацией между страницами приложения.
-- **SweetAlert2**: Библиотека для создания интерактивных и стильных уведомлений.
+- **Vite**: Инструмент для быстрого и эффективного веб-разработки.
+- **React Router**: Управление маршрутами для навигации между страницами.
+- **SweetAlert2**: Библиотека для отображения интерактивных и настраиваемых предупреждений.
 
-## Зависимости
+</details>
+
+<details>
+  <summary><h2> Зависимости</h2></summary>
 
 ```json
 "dependencies": {
@@ -49,10 +57,12 @@
   "vite": "^5.4.1"
 }
 ```
+</details>
 
-## Как запустить проект локально
+## Как Запустить Проект Локально
 
-### С Docker
+<details>
+  <summary><h2>🚀 С Использованием Docker</h2></summary>
 
 1. Клонируйте репозитории:
 
@@ -61,21 +71,23 @@
    git clone git@github.com:SamuelRocha91/apiMeasureWaterAndGas.git
    ```
 
-2. Скачайте файл `docker-compose.yml`:
+2. Скачайте файл `docker-compose.yml`.
+   [Скачать с Google Drive](https://drive.google.com/file/d/1p5MKW3YB5En05Jp5ETWxNbmHllinihiH/view?usp=sharing)
 
-   [Доступ через Google Drive](https://drive.google.com/file/d/1p5MKW3YB5En05Jp5ETWxNbmHllinihiH/view?usp=sharing)
+3. Поместите файл `docker-compose.yml` в следующую структуру папок:
+   
+   ![Структура Папок](./public/pastasDocker.png)
 
-3. Разместите файл `docker-compose.yml` в структуре папок, аналогичной следующей:
-
-   ![Структура папок](./public/pastasDocker.png)
-
-4. Постройте образы и запустите контейнеры:
+4. Постройте образы и поднимите контейнеры:
 
    ```bash
    docker-compose up --build
    ```
 
-### Без Docker
+</details>
+
+<details>
+  <summary><h2>🚀 Без Docker</h2></summary>
 
 1. Клонируйте репозиторий:
 
@@ -83,7 +95,7 @@
    git clone git@github.com:SamuelRocha91/precisionReactApplication.git
    ```
 
-2. Перейдите в каталог проекта:
+2. Перейдите в директорию проекта:
 
    ```bash
    cd precisionReactApplication
@@ -101,30 +113,33 @@
    npm run dev
    ```
 
-5. Откройте приложение в браузере по адресу `http://localhost:5173`.
+5. Получите доступ к приложению в вашем браузере по адресу `http://localhost:5173`.
 
-## Структура папок
+</details>
+
+<details>
+  <summary><h2>Структура Папок</h2></summary>
+
 
 ```bash
 precisionReactApplication/
 ├── assets/          # Изображения и визуальные ресурсы
-├── components/      # Повторно используемые React-компоненты
-├── styles/          # CSS стили
-├── public/          # Публичные файлы
+├── components/      # Переиспользуемые компоненты React
+├── styles/          # CSS-стили
+├── public/          # Публичные статические файлы
 ├── src/             # Исходный код приложения
 └── README.md        # Документация проекта
 ```
+</details>
 
-## Планируемые функции
+## Другие Проекты
 
-- **Адаптивный дизайн**: Обеспечение корректного отображения на разных устройствах.
-- **Пагинация**: Введение постраничного вывода данных.
-- **Улучшение CSS**: Настройка стилей для более привлекательного интерфейса.
-- **Модульные и интеграционные тесты**: Обеспечение качества кода с помощью автоматизированного тестирования.
+<details>
+  <summary><strong>🔗 Связанные Репозитории</strong></summary>
 
-## Другие проекты
+  - 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back/blob/main/README_ru.md) - Бэкенд на Ruby On Rails
+  - 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy/blob/main/README_ru.md) - Приложение для потребителей
+  - 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application/blob/main/README_ru.md) - Приложение для продавцов
+  - 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty/blob/main/README_ru.md) - Платежный API
 
-- 💎 [Delivery BackEnd](https://github.com/SamuelRocha91/delivery_back/blob/main/README_ru.md) 
-- 🛒 [Consumy Application](https://github.com/SamuelRocha91/consumy/blob/main/README_ru.md) 
-- 👨‍💼 [Seller Application](https://github.com/SamuelRocha91/seller_application/blob/main/README_ru.md) 
-- 💲 [Paymenty API](https://github.com/SamuelRocha91/paymenty) 
+</details>
